@@ -57,7 +57,7 @@ export const LoginPage = () => {
 
   return (
     <>
-      <AuthHeader title="Welcome to Kn Care" lead="Please login" />
+      <AuthHeader title="Welcome to KNITS Demo" lead="Please login" />
 
       <Container className="mt--8 pb-5">
         {foundUser === undefined && (
