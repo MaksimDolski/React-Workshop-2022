@@ -1,6 +1,6 @@
 import { allAuthRoles } from "../utils";
 
-import { CreateDepartmentPage } from ".";
+import { CreateDepartmentPage, DEPARTMENT_ROUTES } from ".";
 
 export const departmentMenu = [
   {
@@ -13,7 +13,7 @@ export const departmentMenu = [
     allowedRoles: [...allAuthRoles],
     views: [
       {
-        path: "/departments/department-create",
+        path: DEPARTMENT_ROUTES,
         name: "Create Department",
         miniName: "CD",
         component: <CreateDepartmentPage />,

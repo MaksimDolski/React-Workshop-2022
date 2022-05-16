@@ -38,7 +38,7 @@ export const CreateDepartmentPage = () => {
   /*
   const { id } = useParams();
   const employeeId = parseInt(id);
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   const { alert, setSaveSent, setSuccessMessage, setIsSuccess } = useLocalStateAlerts();
 
