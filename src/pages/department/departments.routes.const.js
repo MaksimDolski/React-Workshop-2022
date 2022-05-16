@@ -1,1 +1,1 @@
-export const DEPARTMENT_ROUTES = "/department/create-department";
+export const DEPARTMENT_CREATE = "/department/create-department";

@@ -13,7 +13,7 @@ export const departmentMenu = [
     allowedRoles: [...allAuthRoles],
     views: [
       {
-        path: DEPARTMENT_ROUTES,
+        path: DEPARTMENT_CREATE,
         name: "Create Department",
         miniName: "CD",
         component: <CreateDepartmentPage />,
